@@ -146,7 +146,7 @@ if __name__ == '__main__':
 ```bash
 export E2B_API_KEY="your_e2b_key"
 export POSTHOG_PERSONAL_API_KEY="phx_YOUR_KEY_HERE"
-export POSTHOG_PROJECT_ID="245832"
+export POSTHOG_PROJECT_ID="YOUR_PROJECT_ID"
 ```
 
 ### Step 3: Run It
@@ -417,7 +417,7 @@ if __name__ == '__main__':
 export ANTHROPIC_API_KEY="your_anthropic_key"
 export E2B_API_KEY="your_e2b_key"
 export POSTHOG_PERSONAL_API_KEY="phx_YOUR_KEY_HERE"
-export POSTHOG_PROJECT_ID="245832"
+export POSTHOG_PROJECT_ID="YOUR_PROJECT_ID"
 
 python claude_agent_with_posthog.py
 ```
@@ -591,7 +591,7 @@ finally:
 # .env
 E2B_API_KEY=e2b_xxxxx
 POSTHOG_PERSONAL_API_KEY=phx_xxxxx
-POSTHOG_PROJECT_ID=245832
+POSTHOG_PROJECT_ID=YOUR_PROJECT_ID
 ANTHROPIC_API_KEY=sk-ant-xxxxx
 ```
 

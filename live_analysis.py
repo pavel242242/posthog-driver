@@ -5,6 +5,7 @@ Answers real business questions using actual PostHog data
 """
 
 import sys
+import os
 import json
 from posthog_driver import PostHogClient
 from datetime import datetime, timedelta
@@ -500,8 +501,8 @@ def main():
 
     try:
         client = PostHogClient(
-            api_key='phx_YOUR_KEY_HERE',
-            project_id='245832',
+            api_key=os.getenv('POSTHOG_API_KEY'),
+            project_id=os.getenv('POSTHOG_PROJECT_ID'),
             api_url='https://us.posthog.com'
         )
 

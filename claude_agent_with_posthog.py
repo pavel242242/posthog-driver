@@ -17,10 +17,10 @@ from e2b import Sandbox
 # CONFIGURATION
 # ============================================================================
 
-ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', 'YOUR_ANTHROPIC_KEY_HERE')
-E2B_API_KEY = os.getenv('E2B_API_KEY', 'YOUR_E2B_KEY_HERE')
-POSTHOG_API_KEY = os.getenv('POSTHOG_API_KEY', 'phx_YOUR_KEY_HERE')
-POSTHOG_PROJECT_ID = os.getenv('POSTHOG_PROJECT_ID', '245832')
+ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
+E2B_API_KEY = os.getenv('E2B_API_KEY')
+POSTHOG_API_KEY = os.getenv('POSTHOG_API_KEY')
+POSTHOG_PROJECT_ID = os.getenv('POSTHOG_PROJECT_ID')
 
 # ============================================================================
 # TOOL DEFINITION - This is what Claude sees

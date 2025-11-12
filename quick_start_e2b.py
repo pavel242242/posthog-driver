@@ -13,9 +13,9 @@ import os
 # CONFIGURATION - Set your API keys here or via environment variables
 # ============================================================================
 
-E2B_API_KEY = os.getenv('E2B_API_KEY', 'YOUR_E2B_KEY_HERE')
-POSTHOG_API_KEY = 'phx_YOUR_KEY_HERE'
-POSTHOG_PROJECT_ID = '245832'
+E2B_API_KEY = os.getenv('E2B_API_KEY')
+POSTHOG_API_KEY = os.getenv('POSTHOG_API_KEY')
+POSTHOG_PROJECT_ID = os.getenv('POSTHOG_PROJECT_ID')
 
 # ============================================================================
 # ANALYSIS SCRIPT - This runs inside the E2B sandbox

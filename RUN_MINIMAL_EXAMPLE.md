@@ -41,9 +41,9 @@ export ANTHROPIC_API_KEY="sk-ant-YOUR_KEY_HERE"
 # E2B API (get from https://e2b.dev/dashboard)
 export E2B_API_KEY="e2b_YOUR_KEY_HERE"
 
-# PostHog (you already have these)
+# PostHog (get your API key from PostHog settings)
 export POSTHOG_API_KEY="phx_YOUR_KEY_HERE"
-export POSTHOG_PROJECT_ID="245832"
+export POSTHOG_PROJECT_ID="YOUR_PROJECT_ID"
 ```
 
 ### 2. Install Python Dependencies
